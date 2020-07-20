@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption", "Encryption\Encryption.csproj", "{A2CA4800-007B-406E-B171-6A5BF8A2513D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption.Tests", "Encryption.Tests\Encryption.Tests.csproj", "{90687B47-DAA6-4363-8A58-8EADEA06F7FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE9A520C-A220-4784-A746-C4235FA0D269}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+	LICENSE = LICENSE
+	GitVersion.yml = GitVersion.yml
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{843B327F-41EF-43F0-B764-0738BB014864}"
+ProjectSection(SolutionItems) = preProject
+	.github\workflows\CI.yml = .github\workflows\CI.yml
+	.github\workflows\Release.yml = .github\workflows\Release.yml
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2CA4800-007B-406E-B171-6A5BF8A2513D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CA4800-007B-406E-B171-6A5BF8A2513D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CA4800-007B-406E-B171-6A5BF8A2513D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CA4800-007B-406E-B171-6A5BF8A2513D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90687B47-DAA6-4363-8A58-8EADEA06F7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90687B47-DAA6-4363-8A58-8EADEA06F7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90687B47-DAA6-4363-8A58-8EADEA06F7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90687B47-DAA6-4363-8A58-8EADEA06F7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
